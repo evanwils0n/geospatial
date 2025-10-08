@@ -19,6 +19,8 @@ Fire hotspot data will also be accessed from NASA | LANCE | FIRMS.<br/>Download 
 This data is a point geometry representing locations where fire was detected by satellite.  For this use case, we will use data for the past year.
 
 ### Data Ingestion
+Install ``````geopandas`````` library to read in files.
+Further dependencies include ``````pandas fiona shapely pyproj fastkml matplotlib contextily``````
 ### Data Transformation
 ### Data Loading
 
